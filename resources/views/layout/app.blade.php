@@ -57,5 +57,10 @@
   <script src="{{ asset('js/bootstrap.js') }}"></script>
   <script src="{{ asset('js/adminlte.js') }}"></script>
   <script src="{{ asset('js/custom.js') }}"></script>
+  <script src="{{ asset('plugins/sweetalert/sweetalert2.all.js') }}"></script>
+  <script src="{{ asset('js/viewer.js') }}"></script>
+  <!-- libraries -->
+  <script src="{{ asset('js/libsjs.js') }}"></script>
+  @yield('scriptAdd')
 </body>
 </html>
