@@ -52,7 +52,14 @@
         <strong>Built with</strong> <span class="fa fa-heart"><span>
     </footer>
   </div>
-
+  @yield('footerAdd')
+  <form name="fGlobal" id="fGlobal" method="POST" action="">
+    @csrf
+    <input type="hidden" name="id" id="idFGlobal" value="">
+    <input type="hidden" name="_method" id="method" value="">
+    <input type="hidden" name="sf" value="">
+    <input type="hidden" name="sq" value="">
+  </form>
   <script src="{{ asset('js/jquery.js') }}"></script>
   <script src="{{ asset('js/bootstrap.js') }}"></script>
   <script src="{{ asset('js/adminlte.js') }}"></script>
